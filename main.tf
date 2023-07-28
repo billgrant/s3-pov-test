@@ -6,4 +6,5 @@ module "s3_pov" {
   # change tag names if desired
   environment = "environment-tag"
   name = "name-tag"
+  test = "123"
 }
