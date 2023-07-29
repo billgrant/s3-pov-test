@@ -5,7 +5,7 @@ module "s3_pov" {
   version = "0.0.1"
   # change tag names if desired
   environment = "environment"
-  name = "name"
+  name        = "name"
 }
 
 output "bucket_id" {
