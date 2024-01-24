@@ -2,7 +2,7 @@
 module "s3_pov" {
   # change org-name to your organization name
   source  = "app.terraform.io/billgrant/s3-pov/aws"
-  version = "0.0.1"
+  version = "0.0.2"
   # change tag names if desired
   environment = "dev"
   name        = "pov"
