@@ -4,8 +4,8 @@ module "s3_pov" {
   source  = "app.terraform.io/billgrant/s3-pov/aws"
   version = "0.0.1"
   # change tag names if desired
-  environment = "environment"
-  name        = "name"
+  environment = "dev"
+  name        = "pov"
 }
 
 output "bucket_id" {
