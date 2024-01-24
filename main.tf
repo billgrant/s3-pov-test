@@ -6,6 +6,7 @@ module "s3_pov" {
   # change tag names if desired
   environment = "environment"
   name        = "name"
+  sentinel    = "sentinel"
 }
 
 output "bucket_id" {
