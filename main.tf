@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+    }
+  }
+}
+
 # change the module name if required
 module "s3_pov" {
   # change org-name to your organization name
